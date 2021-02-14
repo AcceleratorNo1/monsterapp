@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 1.5;
+}
+
+.row {
+  max-width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col-6 {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.healthbar {
+  width: 80%;
+  background-color: gray;
+  height: 2em;
+}
+
+.health {
+  background-color: green;
+  height: inherit;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 2em;
+}
+
+.action {
+  min-height: 5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #ccc;
+  margin-bottom: 2em;
+  -webkit-box-shadow: 0px 3px 6px #ccc;
+          box-shadow: 0px 3px 6px #ccc;
+}
+
+.button {
+  font-weight: bolder;
+  border: 0;
+  border-radius: 3px;
+  line-height: 1;
+  font-size: 1.250rem;
+  padding: 0.750em;
+  -webkit-box-shadow: 0px 1px 1px black;
+          box-shadow: 0px 1px 1px black;
+  cursor: pointer;
+  opacity: 0.6;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
+.button-1 {
+  background-color: red;
+}
+
+.button-2 {
+  background-color: #ff4400;
+}
+
+.button-3 {
+  background-color: palegreen;
+}
+
+.button-4 {
+  background-color: rebeccapurple;
+}
+
+ul {
+  list-style: none;
+  width: 90%;
+}
+
+li {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.player-log {
+  color: blue;
+  background-color: #e4e8ff;
+}
+
+.monster-log {
+  color: red;
+  background-color: #ffc0c1;
+}
+/*# sourceMappingURL=style.css.map */
